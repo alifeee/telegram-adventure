@@ -1,0 +1,44 @@
+[
+  {
+    "source": "forest hut",
+    "target": "forest path 1",
+    "properties": {
+      "choice": "Continue through the forest"
+    }
+  },
+  {
+    "source": "forest path 1",
+    "target": "ancient oak",
+    "properties": {
+      "choice": "Go to the ancient oak"
+    }
+  },
+  {
+    "source": "ancient oak",
+    "target": "forest path 2",
+    "properties": {
+      "choice": "It sounds dangerous. Let's go back to the forest path"
+    }
+  },
+  {
+    "source": "forest path 1",
+    "target": "pond clearing",
+    "properties": {
+      "choice": "Go to the pond clearing"
+    }
+  },
+  {
+    "source": "pond clearing",
+    "target": "forest path 2",
+    "properties": {
+      "choice": "No time to rest. Let's go back to the forest path"
+    }
+  },
+  {
+    "source": "forest path 2",
+    "target": "forest exit",
+    "properties": {
+      "choice": "ERROR: END OF IMAGINATION"
+    }
+  }
+]
