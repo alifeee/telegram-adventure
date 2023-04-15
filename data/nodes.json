@@ -1,34 +1,32 @@
-{
-  "nodes": [
-    {
-      "id": "forest hut",
-      "title": "Forest Hut",
-      "description": "You've been walking for hours through the dense forest when you finally stumble upon an old wooden hut. It's small and simple, but there's a cozy charm to it that draws you closer. As you approach, you notice a faint smell of smoke coming from the chimney. The door creaks as you push it open, revealing a cozy interior with a small fire burning in the hearth. A grizzled old man looks up from his seat by the fire and nods in greeting. He doesn't say anything, but you can tell he's used to visitors. You spend a peaceful night in the forest hut, warm and safe from the cold outside. As you step outside the next morning, you feel invigorated and ready to continue your journey. You take one last look at the hut and its mysterious owner, wondering who could have built it so far from civilization, and then set off down the forest path."
-    },
-    {
-      "id": "forest path 1",
-      "title": "Forest Path",
-      "description": "As you make your way down the winding forest path, the canopy of leaves above you blocks out most of the sunlight, creating a cool and serene atmosphere. The leaves rustle and dance in the gentle breeze, and the sounds of birds singing and animals scampering in the underbrush fill the air. After about half an hour of walking, you come to a fork in the path. You notice a signpost with an arrow pointing towards a pond in a clearing, and another pointing towards an ancient oak tree. You take a moment to consider your options before making your choice."
-    },
-    {
-      "id": "ancient oak",
-      "title": "Ancient Oak",
-      "description": "As you approach the ancient oak tree, you feel a sense of awe and wonder. The tree is massive, with a trunk wider than you can reach around and branches that stretch high up into the sky. You can see that the bark is covered in intricate patterns, and there are various small creatures darting in and out of the many crevices. As you admire the tree, you notice a small door carved into the base of the trunk. It looks like it might be big enough for you to squeeze through. Do you dare to open the door and explore what lies within?"
-    },
-    {
-      "id": "pond clearing",
-      "title": "The Pond",
-      "description": "As you step into the pond clearing, you are struck by the beauty of the scene. The pond is crystal clear, and you can see small fish darting around in the water. There are lily pads floating on the surface, and you can hear the gentle croaking of frogs in the distance. On the far side of the pond, you can see a small stone bench nestled under a weeping willow tree. It looks like the perfect spot to sit and rest for a while."
-    },
-    {
-      "id": "forest path 2",
-      "title": "Forest Path",
-      "description": "As you walk down this forest path, the trees around you gradually become less dense, until you are surrounded only by small shrubs and the occasional tree. The path winds its way through the brush, leading you steadily closer to the exit of the forest. You can feel a sense of relief wash over you as you realize you are nearly out of this enchanted woodland."
-    },
-    {
-      "id": "forest exit",
-      "title": "Forest Exit",
-      "description": "As you step out of the forest, you are met with a warm breeze and the soft rustling of leaves. You look around and realize that you're not sure where you want to go next. You could head towards the distant mountains to the east, or make your way to the bustling city in the west. Alternatively, you could continue on the path you're on, and see where it leads you. The possibilities are endless, and the choice is yours."
-    }
-  ]
-}
+[
+  {
+    "id": "forest hut",
+    "title": "Forest Hut",
+    "description": "You've been walking for hours through the dense forest when you finally stumble upon an old wooden hut. It's small and simple, but there's a cozy charm to it that draws you closer. As you approach, you notice a faint smell of smoke coming from the chimney. The door creaks as you push it open, revealing a cozy interior with a small fire burning in the hearth. A grizzled old man looks up from his seat by the fire and nods in greeting. He doesn't say anything, but you can tell he's used to visitors. You spend a peaceful night in the forest hut, warm and safe from the cold outside. As you step outside the next morning, you feel invigorated and ready to continue your journey. You take one last look at the hut and its mysterious owner, wondering who could have built it so far from civilization, and then set off down the forest path."
+  },
+  {
+    "id": "forest path 1",
+    "title": "Forest Path",
+    "description": "As you make your way down the winding forest path, the canopy of leaves above you blocks out most of the sunlight, creating a cool and serene atmosphere. The leaves rustle and dance in the gentle breeze, and the sounds of birds singing and animals scampering in the underbrush fill the air. After about half an hour of walking, you come to a fork in the path. You notice a signpost with an arrow pointing towards a pond in a clearing, and another pointing towards an ancient oak tree. You take a moment to consider your options before making your choice."
+  },
+  {
+    "id": "ancient oak",
+    "title": "Ancient Oak",
+    "description": "As you approach the ancient oak tree, you feel a sense of awe and wonder. The tree is massive, with a trunk wider than you can reach around and branches that stretch high up into the sky. You can see that the bark is covered in intricate patterns, and there are various small creatures darting in and out of the many crevices. As you admire the tree, you notice a small door carved into the base of the trunk. It looks like it might be big enough for you to squeeze through. Do you dare to open the door and explore what lies within?"
+  },
+  {
+    "id": "pond clearing",
+    "title": "The Pond",
+    "description": "As you step into the pond clearing, you are struck by the beauty of the scene. The pond is crystal clear, and you can see small fish darting around in the water. There are lily pads floating on the surface, and you can hear the gentle croaking of frogs in the distance. On the far side of the pond, you can see a small stone bench nestled under a weeping willow tree. It looks like the perfect spot to sit and rest for a while."
+  },
+  {
+    "id": "forest path 2",
+    "title": "Forest Path",
+    "description": "As you walk down this forest path, the trees around you gradually become less dense, until you are surrounded only by small shrubs and the occasional tree. The path winds its way through the brush, leading you steadily closer to the exit of the forest. You can feel a sense of relief wash over you as you realize you are nearly out of this enchanted woodland."
+  },
+  {
+    "id": "forest exit",
+    "title": "Forest Exit",
+    "description": "As you step out of the forest, you are met with a warm breeze and the soft rustling of leaves. You look around and realize that you're not sure where you want to go next. You could head towards the distant mountains to the east, or make your way to the bustling city in the west. Alternatively, you could continue on the path you're on, and see where it leads you. The possibilities are endless, and the choice is yours."
+  }
+]
