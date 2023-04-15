@@ -2,6 +2,20 @@
 
 Attempt to make a choose-your-own-adventure game as a Telegram bot.
 
+## Development
+
+### Requirements
+
+| Name | Version |
+| ---- | ------- |
+| Python | 3.11.0 |
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Database
 
 ### Create

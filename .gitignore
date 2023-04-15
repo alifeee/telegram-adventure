@@ -1,1 +1,5 @@
+# python virtual environment
+/env
+
+# database
 /adventure.db
