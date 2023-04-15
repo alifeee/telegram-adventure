@@ -16,7 +16,7 @@ Attempt to make a choose-your-own-adventure game as a Telegram bot.
 pip install -r requirements.txt
 ```
 
-## Database
+## Story Database
 
 ### Create
 
@@ -35,4 +35,12 @@ py ./sql/load_data.py
 ```bash
 sqlite3 adventure.db < sql/print_nodes.sql
 sqlite3 adventure.db < sql/print_edges.sql
+```
+
+### Show as graph
+
+Note: display layout is randomised, so the graph may look different each time.
+
+```bash
+py ./sql/display_graph.py
 ```
