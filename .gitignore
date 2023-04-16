@@ -3,3 +3,6 @@
 
 # database
 /adventure.db
+
+# secrets
+/.env
