@@ -17,9 +17,6 @@ edgeData = cur.fetchall()
 edges = [{'source': d[0], 'target': d[1],
           'properties': json.loads(d[2])} for d in edgeData]
 
-print(nodes[0])
-print(edges[0])
-
 G = nx.DiGraph()
 
 for node in nodes:
