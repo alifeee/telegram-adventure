@@ -45,9 +45,19 @@ Note: display layout is randomised, so the graph may look different each time.
 py ./sql/display_graph.py
 ```
 
-## Notifications
+## Telegram bot
 
-Notifications are sent via [Telegram](https://telegram.org/). Secrets are used via environment variables, or a `.env` file, which is not tracked by git.
+### Run
+
+```bash
+py .src/bot.py
+```
+
+### Access token
+
+To obtain an access token, see [help page](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Introduction-to-the-API), but in essence, talk to the [BotFather](https://t.me/botfather).
+
+The access token is used via environment variables, or a `.env` file, which is not tracked by git.
 
 ```bash
 touch .env
@@ -56,7 +66,3 @@ touch .env
 ```.env
 TELEGRAM_BOT_ACCESS_TOKEN=...
 ```
-
-### How to get bot access token
-
-See [help page](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Introduction-to-the-API), but in essence, talk to the [BotFather](https://t.me/botfather).
