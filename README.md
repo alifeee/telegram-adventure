@@ -7,6 +7,7 @@ Attempt to make a choose-your-own-adventure game as a Telegram bot.
 | Name | Version |
 | ---- | ------- |
 | Python | 3.11.0 |
+| [python-telegram-bot](https://docs.python-telegram-bot.org/en/stable/index.html) | 20.2 |
 
 ## Quickstart
 
