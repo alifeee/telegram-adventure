@@ -16,6 +16,18 @@ Attempt to make a choose-your-own-adventure game as a Telegram bot.
 pip install -r requirements.txt
 ```
 
+### Test
+
+```bash
+pytest
+```
+
+#### Watch file changes
+
+```bash
+ptw
+```
+
 ## Story Database
 
 ### Create

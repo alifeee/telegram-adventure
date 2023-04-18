@@ -1,5 +1,6 @@
-# python virtual environment
+# python
 /env
+**/__pycache__
 
 # database
 /adventure.db
