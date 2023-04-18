@@ -2,13 +2,13 @@
 
 Attempt to make a choose-your-own-adventure game as a Telegram bot.
 
-## Development
-
-### Requirements
+## Requirements
 
 | Name | Version |
 | ---- | ------- |
 | Python | 3.11.0 |
+
+## Quickstart
 
 ### Install dependencies
 
@@ -16,48 +16,11 @@ Attempt to make a choose-your-own-adventure game as a Telegram bot.
 pip install -r requirements.txt
 ```
 
-### Test
+### Export environment variables ([see below](#telegram-access-token))
 
 ```bash
-pytest
+TELEGRAM_BOT_ACCESS_TOKEN=...
 ```
-
-#### Watch file changes
-
-```bash
-ptw
-```
-
-## Story Database
-
-### Create
-
-```bash
-sqlite3 adventure.db < sql/schema.sql
-```
-
-### Load data
-
-```bash
-py ./sql/load_data.py
-```
-
-### Dump data
-
-```bash
-sqlite3 adventure.db < sql/print_nodes.sql
-sqlite3 adventure.db < sql/print_edges.sql
-```
-
-### Show as graph
-
-Note: display layout is randomised, so the graph may look different each time.
-
-```bash
-py ./sql/display_graph.py
-```
-
-## Telegram bot
 
 ### Run
 
@@ -65,11 +28,48 @@ py ./sql/display_graph.py
 py .src/bot.py
 ```
 
-### Access token
+## Development
 
-To obtain an access token, see [help page](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Introduction-to-the-API), but in essence, talk to the [BotFather](https://t.me/botfather).
+### Test with `pytest`
 
-The access token is used via environment variables, or a `.env` file, which is not tracked by git.
+```bash
+ptw
+```
+
+### Story database
+
+#### Create
+
+```bash
+sqlite3 adventure.db < sql/schema.sql
+```
+
+#### Load data
+
+```bash
+py ./sql/load_data.py
+```
+
+#### Dump data
+
+```bash
+sqlite3 adventure.db < sql/print_nodes.sql
+sqlite3 adventure.db < sql/print_edges.sql
+```
+
+#### Show as a graph
+
+Note: display layout is randomised, so the graph may look different each time.
+
+```bash
+py ./sql/display_graph.py
+```
+
+## Telegram Access token
+
+To obtain an access token for telegram, see [help page](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Introduction-to-the-API), but in essence, talk to the [BotFather](https://t.me/botfather).
+
+The access token is used via an environment variable, or a `.env` file, which is not tracked by git.
 
 ```bash
 touch .env
