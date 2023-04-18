@@ -77,6 +77,15 @@ class TestDatabase(unittest.TestCase):
         # Assert
         self.assertEqual(result, EXAMPLE_NODES[0])
 
+    def test_get_all_node_ids(self):
+        # Arrange
+        # Act
+        result = self.db.get_all_node_ids()
+
+        # Assert
+        self.assertEqual(
+            result, ["forest hut", "forest path A", "forest path B", "forest exit"])
+
     def test_get_choices_for_node(self):
         # Arrange
         choices = [

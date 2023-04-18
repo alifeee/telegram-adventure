@@ -40,6 +40,11 @@ class Database:
         body = json.loads(result[0])
         return body
 
+    def get_all_node_ids(self):
+        self.cur.execute("SELECT id FROM nodes")
+        result = self.cur.fetchall()
+        return [id for (id,) in result]
+
     def get_choices_for_node(self, node_id: str):
         # return {source, target, properties}
         self.cur.execute(
