@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "njpwerner.autodocstring",
+        "tonybaloney.vscode-pets",
+        "usernamehw.errorlens",
+        "mhutchie.git-graph",
+        "github.vscode-pull-request-github",
+        "eamodio.gitlens",
+        "davidanson.vscode-markdownlint",
+        "mushan.vscode-paste-image",
+        "esbenp.prettier-vscode",
+        "ms-python.vscode-pylance",
+        "alexcvzz.vscode-sqlite"
+    ]
+}
